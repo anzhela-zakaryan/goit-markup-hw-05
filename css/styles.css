@@ -750,6 +750,10 @@ input {
     fill: #4d5ae5;
 }
 
+.modal-form-textarea-wrapper {
+    margin-bottom: 16px;
+}
+
 .modal-form-textarea {
     width: 100%;
     height: 120px;
@@ -769,7 +773,6 @@ input {
 .modal-form-textarea:focus {
     border-color: #4d5ae5;
     outline: transparent;
-
 }
 
 .modal-form-textarea::placeholder {
@@ -779,9 +782,6 @@ input {
     color:#8e8f99;
 }
 
-.modal-form-field-wrapper {
-    margin-bottom: 16px;
-}
 .modal-form-checkbox-label {
     font-size: 12px;
     line-height: 117%;
